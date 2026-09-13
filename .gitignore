@@ -1,0 +1,30 @@
+# PersonaLive model weights
+pretrained_weights/
+*.pth
+*.ckpt
+*.safetensors
+*.engine
+
+# Generated outputs and user inputs
+results/
+final_outputs/
+my_inputs/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
